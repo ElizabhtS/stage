@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@400;700&display=swap');
+body{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Caveat', cursive;
+    background-color: #ffffdf;
+    font-size: 33px;
+}
+header{
+    background-image: url(../img/1603495493_4-p-matovii-chernii-fon-5.jpg);
+    color: silver;
+}
+a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 25px;
+}
+a:hover{
+    font-size: 30px;
+    color: #f7ef8a;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-image: url(../img/1603495493_4-p-matovii-chernii-fon-5.jpg);
+    color: silver;
+}
+main{
+    background-color: #ffffdf;
+}
+.container{
+    text-align: center;
+}
