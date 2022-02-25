@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/ticets.css">
+    <link rel="stylesheet" href="../CSS/adeptive.css">
+    <title>Билеты</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div>
+            <h1>Театр им. Горького</h1>
+        </div>
+            <div class="nav">
+                <nav>
+                    <a href="../index.html">Главная</a>
+                    <a href="../HTML/about.html">О нас</a>
+                    <a href="../HTML/actours.html">Актёры</a>
+                    <a href="HTML/gallery.html">Галерея</a>
+                    <a href="../HTML/contact.html">Контакты</a>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <div class="container">
+                    <div class="form-wrap">
+                        <div class="profile">
+                          <h1 class="print-text"></h1>
+                        </div>
+                        <form method="post" action="form.php">
+                          <div>
+                            <label for="name">Имя</label>
+                            <input type="text" name="name" required>
+                          </div>
+                          <div class="radio">
+                            <span>Пол</span>
+                            <label>
+                              <input type="radio" name="sex" value="мужской">мужской
+                              <div class="radio-control male"></div>
+                            </label>
+                            <label>
+                              <input type="radio" name="sex" value="женский">женский
+                              <div class="radio-control female"></div>
+                            </label>
+                          </div>
+                          <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" required>
+                          </div>
+                          <div>
+                            <label for="country">Страна</label>
+                            <select name="country">
+                              <option>Выберите страну проживания</option>
+                              <option value="Россия">Россия</option> 
+                              <option value="Украина">Украина</option> 
+                              <option value="Беларусь">Беларусь</option> 
+                            </select> 
+                            <div>
+                                <label for="name">Постановка</label>
+                                <input type="text" name="name" required>
+                              </div>
+                            <div>
+                            <label for="country">Колличество</label>
+                            <select name="country">
+                                <option>Выберите колличество билетов</option>
+                                <option value="1">1</option> 
+                                <option value="2">2</option> 
+                                <option value="3">3</option> 
+                                <option value="4">4</option> 
+                                <option value="5">5</option> 
+                                <option value="6">6</option> 
+                                <option value="7">7</option> 
+                                <option value="8">8</option> 
+                                <option value="9">9</option> 
+                                <option value="10">10</option> 
+                              </select> </div>
+                            <div class="select-arrow"></div> 
+                          </div> 
+                          <button type="submit">Отправить</button> 
+                        </form> 
+                      </div>
+                </div>
+            </section>
+        </div>
+    </main> 
+    <footer>
+        <div class="container">        
+        <h3>THEATRE | <a href="https://rusteatrkrym.ru/sorokina-e-n/">Узнать больше</a></h3>
+        </div>
+       
+    </footer>
+<script src="../JS/tices.js"></script>
+</body>
+</html>
